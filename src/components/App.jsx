@@ -40,7 +40,7 @@ export const App = () => {
         />
       </Section>
       <Section title={'Statistic'}>
-        {countTotalFeedback() ? (
+        {countTotalFeedback ? (
           <Statistics
             good={good}
             neutral={neutral}
